@@ -16,8 +16,9 @@ class Counter extends Component {
     render() {
       return (
           <div>
-              <h3>The count is :{this.state.count}</h3>
-                    <Base   onClick={this.handleClick.bind(this)}
+              <h3>Counter :{this.state.count}</h3>
+              <p>Count is:</p>
+                    <Base onClick={this.handleClick.bind(this)}
                     text="Increment"/>
                     
             </div>
